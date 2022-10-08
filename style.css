@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+h1,h2{
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+}
+#btn-calcular{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    background-color:  rgb(19, 160, 54);
+    color: rgb(255, 244, 244);
+}
+#container{
+    background-color: rgb(68, 19, 160);
+    max-height: 1200px;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+#resultadoCalculo{
+    color: rgb(19, 160, 54);
+}
